@@ -1,0 +1,48 @@
+Construye una página de documentación técnica
+Objetivo: Crea una aplicación que funcione similar a https://technical-documentation-page.freecodecamp.rocks
+
+Historias de usuario:
+
+Puedes ver un elemento main con un id="main-doc" correspondiente, que contiene el contenido principal de la página (documentación técnica)
+Dentro del elemento #main-doc, puedes ver varios elementos de section, cada uno con una clase de main-section. Debe haber un mínimo de cinco
+El primer elemento dentro de cada .main-section debe ser un elemento header, que contiene texto que describe el tema de esa sección.
+Cada elemento section con la clase de main-section también debe tener un id que corresponda con el texto de cada header contenido en él. Cualquier espacio debe ser reemplazado por guiones bajos (p.ej. La sección que contiene el encabezado "JavaScript y Java" debe tener un id="JavaScript_and_Java") correspondiente
+Los elementos .main-section deben contener al menos diez elementos p en total (no cada uno)
+Los elementos .main-section deben contener al menos cinco elementos code en total (no cada uno)
+Los elementos .main-section deben contener al menos cinco elementos li en total (no cada uno)
+Puedes ver un elemento nav con un correspondiente id="navbar"
+El elemento de la barra de navegación debe contener un elemento de header que contiene texto que describe el tema de la documentación técnica
+Además, la barra de navegación debe contener elementos de enlace (a) con la clase de nav-link. Debe haber uno para cada elemento con la clase main-section
+El elemento header en la #navbar debe venir antes de cualquier enlace (a) en la barra de navegación
+Cada elemento con la clase de nav-link debe contener texto que corresponda al texto header dentro de cada section (p.ej. Si tienes una sección/encabezado "Hola mundo", tu barra de navegación debe tener un elemento que contenga el texto "Hola mundo")
+Al hacer clic en un elemento de tu barra de navegación, la página debe dirigirse a la sección correspondiente del elemento #main-doc (Ejemplo: Si haces clic en el elemento .nav-link que contiene el texto "Hello world", la página debe dirigirse al elemento section que tenga ese id y contenga el header correspondiente)
+En dispositivos de tamaño normal (portátiles, escritorios), el elemento con id="navbar" debe mostrarse en el lado izquierdo de la pantalla y siempre debe ser visible para el usuario
+Tu documentación técnica debe usar al menos una consulta de medios
+Completa las historias de usuario y pasa todas las pruebas a continuación para completar este proyecto. Dale tu propio estilo personal. ¡Feliz día programando!
+
+Nota: Asegúrate de agregar <link rel="stylesheet" href="styles.css"> en tu HTML para enlazar tu hoja de estilos y aplicar tu CSS
+
+--- Checking ---
+
+Aprobado:Debes tener un elemento main con un id de main-doc.
+Aprobado:Debes tener al menos cinco elementos section con la clase main-section.
+Aprobado:Todos tus elementos .main-section deben ser elementos section.
+Aprobado:Debes tener al menos cinco elementos .main-section que sean descendientes de #main-doc.
+Aprobado:El primer hijo de cada .main-section debe ser un elemento header.
+Aprobado:Ninguno de tus elementos header debe estar vacío.
+Aprobado:Todos tus elementos .main-section deben tener un id.
+Aprobado:Cada .main-section debe tener un id que coincida con el texto de su primer hijo, reemplazando los espacios en el texto del hijo con guiones bajos (_) para los id.
+Aprobado:Debes tener al menos 10 elementos (en total) p dentro de tus elementos .main-section.
+Aprobado:Debes tener al menos cinco elementos code que sean descendientes de los elementos .main-section.
+Aprobado:Debes tener al menos cinco elementos li que sean descendientes de los elementos .main-section.
+Aprobado:Debes tener un elemento nav con un id de navbar.
+Aprobado:Tu #navbar debe tener exactamente un elemento header dentro de él.
+Aprobado:Debes tener al menos un elemento a con la clase nav-link.
+Aprobado:Todos tus elementos .nav-link deben ser elementos ancla (a).
+Aprobado:Todos tus elementos .nav-link deben estar en el #navbar.
+Aprobado:Debes tener el mismo número de elementos .nav-link y .main-section.
+Aprobado:El elemento header en el #navbar debe estar antes de cualquiera de los elementos enlace (a) también en la #navbar.
+Aprobado:Cada .nav-link debe tener un texto que corresponda con el texto del header de su section relacionado (por ejemplo, si tienes un section/header "Hello world", tu #navbar debe tener un .nav-link que tenga el texto "Hello world").
+Aprobado:Cada .nav-link debe tener un atributo href que enlace a su correspondiente .main-section (por ejemplo, si haces clic en un elemento .nav-link que contenga el texto "Hello world", la página navega al elemento section con ese id).
+Aprobado:Tu #navbar siempre debe estar en el borde izquierdo de la ventana.
+Aprobado:Tu proyecto de documentación técnica debe usar al menos una consulta de medios.

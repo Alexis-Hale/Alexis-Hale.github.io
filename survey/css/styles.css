@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  font-size: 1rem;
+  text-align: center;
+  color: #fff;
+  background-image: linear-gradient(
+      115deg,
+      rgba(58, 58, 158, 0.8),
+      rgba(136, 136, 206, 0.7)
+    ),
+    url(https://cdn-icons-png.flaticon.com/512/3791/3791146.png);
+  background-size: cover;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+h1,
+p {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+form {
+  background-color: rgba(27, 27, 50, 0.8);
+  width: 60%;
+  margin: 20px auto;
+  padding: 2.5rem;
+  text-align: left;
+}
+
+label {
+  display: block;
+}
+
+input,
+textarea,
+select,
+button {
+  margin: 0;
+  width: 100%;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+button {
+  display: block;
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #37af65;
+  border-radius: 2px;
+  color: #f3f3f3;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+.input-radio,
+.input-checkbox {
+  width: unset;
+}
+
+.form-group {
+  margin: 0 auto 1.25rem auto;
+  padding: 0.25rem;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  height: 2.375rem;
+  padding: 0.375rem 0.75rem;
+  color: #495057;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+}
